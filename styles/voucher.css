@@ -1,0 +1,36 @@
+#voucher_list{
+    width: 90%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    display: grid;
+    gap: 30px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+#voucher_list>div{
+    width: 90%;
+    margin: auto;
+    color:red;
+    border: 1px black solid;
+
+}#voucher_list>div>img{
+    height: 300px;
+}
+
+#navbar{
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    font-size:20px ;
+    color:white;
+
+
+}
+#navbar>a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+}

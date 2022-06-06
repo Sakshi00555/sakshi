@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+form{
+    text-align: center;
+    width: 40%;
+    background-color: rgb(162, 162, 203);
+    
+    margin: auto;
+}
+input{
+    width: 90%;
+    font-size: 20px;
+    margin: 10px auto 10px ;
+
+}
+#navbar{
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    font-size:20px ;
+    color:white;
+
+
+}
+#navbar>a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
